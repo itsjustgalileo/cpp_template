@@ -27,5 +27,6 @@ This serves as a starting point for C/C++ projects that have the following forma
 target_include_directories(${PROJECT} PUBLIC ${CMAKE_SOURCE_DIR}/Lib)
 target_link_libraries(${PROJECT} PUBLIC Lib)
 ```
+* Change the names of App & Lib in the root CMakeLists.txt to the chosen names.
 
 If you are not a cmake first-time user, you can change the project files as you like.
